@@ -1,0 +1,31 @@
+O Git é uma ferramenta de versionamento que auxilia os desenvolvedores a manter um controle sobre os projetos, através de repositorios online, tais repositórios possuem branches(ramificações), que possuem um objetivo especifico, é possível, por exemplo, criar uma branch para o desenvolvimento e implementação de uma feature especifica, tudo isso facilita os processos do desenvolvimento.
+
+Seus principais comandos:
+
+git config --global <Configuração> - Configura informações e parametros globais localmente, tais como nome de usuario ou email
+
+git init - Inicializa um repositorio
+
+git clone - Clona um repositório existente
+
+git add <Arquivo(s)> - Adiciona mudanças em determinados aqrquivos
+
+git commit -m "Mensagem de alteração" - Registra de fato as mudanças
+
+git push origin <Branch> - Envia alterações para o repositório remoto
+
+git remote add origin <Repositório> - Cria um repositório em um servidor remoto
+
+git checkout <Branch> - Muda a branch em uso
+
+git checkout -b <Branch> - Cria uma branch
+
+git checkout -d <Branch> - Remove uma branch
+
+git push origin <Branch> - Publica uma branch
+
+git pull - Atualiza os arquivios locais com o repositório remoto
+
+git merge <Branch> - Mescla outra branch à que está sendo utilizada
+
+git diff <Branch de Origem> <Branch de Destino> - Compara diferenças entre branches
